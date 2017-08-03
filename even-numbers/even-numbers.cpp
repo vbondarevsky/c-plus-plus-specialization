@@ -11,6 +11,5 @@ int main()
 			std::cout << i << " ";
 		}
 	}
-    return 0;
+	return 0;
 }
-

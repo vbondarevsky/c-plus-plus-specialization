@@ -9,8 +9,8 @@ int main()
 	int counter_f = 0;
 	for (auto c : s)
 	{
-		if(c == 'f')
-		{ 
+		if (c == 'f')
+		{
 			counter_f++;
 		}
 
@@ -32,6 +32,5 @@ int main()
 	{
 		std::cout << i;
 	}
-    return 0;
+	return 0;
 }
-

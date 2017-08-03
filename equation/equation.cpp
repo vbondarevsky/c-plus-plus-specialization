@@ -26,6 +26,5 @@ int main()
 		std::cout << -c / b;
 	}
 
-    return 0;
+	return 0;
 }
-

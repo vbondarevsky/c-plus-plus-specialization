@@ -10,9 +10,8 @@ int main()
 		std::cout << s1;
 	else if (s2 <= s1 && s2 <= s3)
 		std::cout << s2;
-	else 
+	else
 		std::cout << s3;
 
 	return 0;
 }
-
