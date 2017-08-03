@@ -17,6 +17,5 @@ int main()
 	{
 		std::cout << N;
 	}
-    return 0;
+	return 0;
 }
-
