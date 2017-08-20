@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximiser", "maximiser\maxi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "move-strings", "move-strings\move-strings.vcxproj", "{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse", "reverse\reverse.vcxproj", "{CA373398-D230-4637-B8BB-2F4B151EBA8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x64.Build.0 = Release|x64
 		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x86.ActiveCfg = Release|Win32
 		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x86.Build.0 = Release|Win32
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Debug|x64.ActiveCfg = Debug|x64
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Debug|x64.Build.0 = Debug|x64
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Debug|x86.Build.0 = Debug|Win32
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Release|x64.ActiveCfg = Release|x64
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Release|x64.Build.0 = Release|x64
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Release|x86.ActiveCfg = Release|Win32
+		{CA373398-D230-4637-B8BB-2F4B151EBA8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
