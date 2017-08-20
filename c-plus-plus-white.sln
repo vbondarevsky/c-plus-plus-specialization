@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome-filter", "palind
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximiser", "maximiser\maximiser.vcxproj", "{1433B162-4042-4712-A1F5-5B7179533969}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "move-strings", "move-strings\move-strings.vcxproj", "{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{1433B162-4042-4712-A1F5-5B7179533969}.Release|x64.Build.0 = Release|x64
 		{1433B162-4042-4712-A1F5-5B7179533969}.Release|x86.ActiveCfg = Release|Win32
 		{1433B162-4042-4712-A1F5-5B7179533969}.Release|x86.Build.0 = Release|Win32
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Debug|x64.ActiveCfg = Debug|x64
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Debug|x64.Build.0 = Debug|x64
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Debug|x86.ActiveCfg = Debug|Win32
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Debug|x86.Build.0 = Debug|Win32
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x64.ActiveCfg = Release|x64
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x64.Build.0 = Release|x64
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x86.ActiveCfg = Release|Win32
+		{83A2B899-1CF7-4564-A1A7-DB9C1DE6535E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
