@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "capitals-directory", "capit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bus-stops", "bus-stops\bus-stops.vcxproj", "{03FC3EE0-ABCA-47FE-8DB0-2CDD2D4C74F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bus-stops-2", "bus-stops-2\bus-stops-2.vcxproj", "{69CB194E-4634-4DB8-85A1-8D4A5945ED68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{03FC3EE0-ABCA-47FE-8DB0-2CDD2D4C74F5}.Release|x64.Build.0 = Release|x64
 		{03FC3EE0-ABCA-47FE-8DB0-2CDD2D4C74F5}.Release|x86.ActiveCfg = Release|Win32
 		{03FC3EE0-ABCA-47FE-8DB0-2CDD2D4C74F5}.Release|x86.Build.0 = Release|Win32
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Debug|x64.ActiveCfg = Debug|x64
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Debug|x64.Build.0 = Debug|x64
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Debug|x86.ActiveCfg = Debug|Win32
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Debug|x86.Build.0 = Debug|Win32
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Release|x64.ActiveCfg = Release|x64
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Release|x64.Build.0 = Release|x64
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Release|x86.ActiveCfg = Release|Win32
+		{69CB194E-4634-4DB8-85A1-8D4A5945ED68}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
