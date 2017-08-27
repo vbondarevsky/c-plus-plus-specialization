@@ -2,7 +2,7 @@
 
 int main()
 {
-	/*LectureTitle title("C++", "White belt", "4th");
+	LectureTitle title("C++", "White belt", "4th");
 
 	LectureTitle title = { "C++", "White belt", "4th" };
 
@@ -19,7 +19,7 @@ int main()
 		Week("4th"),
 		Course("White belt")
 	);
-*/
+
 	LectureTitle title(
 		Specialization("C++"),
 		Course("White belt"),
