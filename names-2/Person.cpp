@@ -1,5 +1,8 @@
 #include <string>
 #include <map>
+#include <set>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -36,8 +39,27 @@ public:
 		}
 	}
 	string GetFullNameWithHistory(int year) {
-		// получить все имена и фамилии по состоянию на конец года year
+		auto f_names = GetNames(first_names, year);
+		auto l_names = GetNames(last_names, year);
+
+		if (!f_names.size() && !l_names.size())
+		{
+			return "Incognito";
+		}
+		else if (!f_names.size() && l_names.size())
+		{
+			return GetName(l_names) + " with unknown first name";
+		}
+		else if (f_names.size() && !l_names.size())
+		{
+			return GetName(f_names) + " with unknown last name";
+		}
+		else if (f_names.size() && l_names.size())
+		{
+			return GetName(f_names) + " " + GetName(l_names);
+		}
 	}
+
 private:
 	map<int, string> first_names;
 	map<int, string> last_names;
@@ -58,5 +80,52 @@ private:
 		}
 
 		return last_year;
+	}
+
+	vector<string> GetNames(const map<int, string>& m, int year)
+	{
+		vector<string> names;
+		for (const auto& i : m)
+		{
+			if (i.first <= year)
+			{
+				names.push_back(i.second);
+			}
+			else
+			{
+				break;
+			}
+		}
+
+		reverse(begin(names), end(names));
+
+		return names;
+	}
+
+	string GetName(const vector<string>& names)
+	{
+		string result = names[0];
+		string prev = names[0];
+
+		string s;
+		for (int i = 1; i < names.size(); ++i)
+		{
+			if (prev != names[i])
+			{
+				if (!s.empty())
+				{
+					s += ", ";
+				}
+				prev = names[i];
+				s += names[i];
+			}
+		}
+
+		if (!s.empty())
+		{
+			result = result + " (" + s + ")";
+		}
+
+		return result;
 	}
 };
