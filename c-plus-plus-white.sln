@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "files-2", "files-2\files-2.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "precision", "precision\precision.vcxproj", "{7F5A08A6-30AD-4151-A821-989F086C18C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "table", "table\table.vcxproj", "{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -401,6 +403,14 @@ Global
 		{7F5A08A6-30AD-4151-A821-989F086C18C0}.Release|x64.Build.0 = Release|x64
 		{7F5A08A6-30AD-4151-A821-989F086C18C0}.Release|x86.ActiveCfg = Release|Win32
 		{7F5A08A6-30AD-4151-A821-989F086C18C0}.Release|x86.Build.0 = Release|Win32
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Debug|x64.ActiveCfg = Debug|x64
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Debug|x64.Build.0 = Debug|x64
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Debug|x86.Build.0 = Debug|Win32
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Release|x64.ActiveCfg = Release|x64
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Release|x64.Build.0 = Release|x64
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Release|x86.ActiveCfg = Release|Win32
+		{87FDE871-6D4B-4D4D-B523-9F159B92AF9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
