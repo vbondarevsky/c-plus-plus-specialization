@@ -5,23 +5,11 @@ using namespace std;
 class Rational {
 public:
 	Rational() {
-		_numerator = 0;
-		_denominator = 1;
+		Init();
 	}
 
-	Rational(int numerator, int denominator) {
-		if (numerator == 0)
-		{
-			_numerator = 0;
-			_denominator = 1;
-		}
-		else
-		{
-			int sign = (numerator * denominator) < 0 ? -1 : 1;
-			int gcd = GCD(numerator, denominator);
-			_denominator = abs(denominator / gcd);
-			_numerator = sign * abs(numerator / gcd);
-		}
+	Rational(long long numerator, long long denominator) {
+		Init(numerator, denominator);
 	}
 
 	int Numerator() const {
@@ -31,18 +19,39 @@ public:
 	int Denominator() const {
 		return _denominator;
 	}
+	void SetNumeratorDenominator(long long numerator, long long denominator)
+	{
+		Init(numerator, denominator);
+	}
 
 private:
 	int _numerator;
 	int _denominator;
 
-	int GCD(int numerator, int denominator) const
+	void Init(long long numerator = 0, long long denominator = 1)
 	{
-		int m = abs(denominator);
-		int n = abs(numerator);
+		if (numerator == 0 || denominator == 0)
+		{
+			_numerator = 0;
+			_denominator = 1;
+		}
+		else
+		{
+			long long m = numerator * denominator;
+			long long sign = (m) < 0 ? -1 : 1;
+			long long gcd = GCD(numerator, denominator);
+			_denominator = abs(denominator / gcd);
+			_numerator = sign * abs(numerator / gcd);
+		}
+	}
+
+	int GCD(long long numerator, long long denominator) const
+	{
+		long long m = abs(denominator);
+		long long n = abs(numerator);
 
 		// алгоритм Евклида
-		int temp = 0;
+		long long temp = 0;
 		while (n != 0)
 		{
 			if (n > 0)
