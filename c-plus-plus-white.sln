@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rational_exception", "ratio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator-fractions", "calculator-fractions\calculator-fractions.vcxproj", "{9F077D35-F11B-4186-90CB-484A8C71C0B0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "invertible_function", "invertible_function\invertible_function.vcxproj", "{D149BD83-C37E-413C-8AB6-16BB4E800C48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{9F077D35-F11B-4186-90CB-484A8C71C0B0}.Release|x64.Build.0 = Release|x64
 		{9F077D35-F11B-4186-90CB-484A8C71C0B0}.Release|x86.ActiveCfg = Release|Win32
 		{9F077D35-F11B-4186-90CB-484A8C71C0B0}.Release|x86.Build.0 = Release|Win32
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Debug|x64.ActiveCfg = Debug|x64
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Debug|x64.Build.0 = Debug|x64
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Debug|x86.ActiveCfg = Debug|Win32
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Debug|x86.Build.0 = Debug|Win32
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Release|x64.ActiveCfg = Release|x64
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Release|x64.Build.0 = Release|x64
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Release|x86.ActiveCfg = Release|Win32
+		{D149BD83-C37E-413C-8AB6-16BB4E800C48}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
