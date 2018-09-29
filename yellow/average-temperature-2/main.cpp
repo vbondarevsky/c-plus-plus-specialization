@@ -11,7 +11,7 @@ int main() {
         std::cin >> t;
     }
 
-    int m = std::accumulate(T.begin(), T.end(), 0ll) / N;
+    int m = std::accumulate(T.begin(), T.end(), 0i64) / N;
 
     std::vector<int> filteredT;
     for (auto i = 0; i < T.size(); ++i) {
