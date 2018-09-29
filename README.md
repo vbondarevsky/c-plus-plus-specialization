@@ -1,2 +1,2 @@
-# c-plus-plus-white
-Задания по курсу https://www.coursera.org/learn/c-plus-plus-white
+# Искусство разработки на современном C++
+Задания по специализации https://www.coursera.org/specializations/c-plus-plus-modern-development
