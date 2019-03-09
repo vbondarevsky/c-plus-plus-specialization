@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.12)
+project(yellow)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_subdirectory("${PROJECT_SOURCE_DIR}/average-temperature-2" "${PROJECT_SOURCE_DIR}/average-temperature-2/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/base-regions" "${PROJECT_SOURCE_DIR}/base-regions/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/blocks-weight" "${PROJECT_SOURCE_DIR}/blocks-weight/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/decomposition" "${PROJECT_SOURCE_DIR}/decomposition/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/item-reference" "${PROJECT_SOURCE_DIR}/item-reference/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/sqr" "${PROJECT_SOURCE_DIR}/sqr/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/task-tracker" "${PROJECT_SOURCE_DIR}/task-tracker/cmake-build-debug")
