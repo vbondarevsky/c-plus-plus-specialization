@@ -11,3 +11,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/item-reference" "${PROJECT_SOURCE_DIR}/i
 add_subdirectory("${PROJECT_SOURCE_DIR}/sqr" "${PROJECT_SOURCE_DIR}/sqr/cmake-build-debug")
 add_subdirectory("${PROJECT_SOURCE_DIR}/task-tracker" "${PROJECT_SOURCE_DIR}/task-tracker/cmake-build-debug")
 add_subdirectory("${PROJECT_SOURCE_DIR}/test_equation" "${PROJECT_SOURCE_DIR}/test_equation/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/test_person" "${PROJECT_SOURCE_DIR}/test_person/cmake-build-debug")
