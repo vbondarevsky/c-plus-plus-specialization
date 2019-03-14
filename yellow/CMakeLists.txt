@@ -12,3 +12,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/sqr" "${PROJECT_SOURCE_DIR}/sqr/cmake-bu
 add_subdirectory("${PROJECT_SOURCE_DIR}/task-tracker" "${PROJECT_SOURCE_DIR}/task-tracker/cmake-build-debug")
 add_subdirectory("${PROJECT_SOURCE_DIR}/test_equation" "${PROJECT_SOURCE_DIR}/test_equation/cmake-build-debug")
 add_subdirectory("${PROJECT_SOURCE_DIR}/test_person" "${PROJECT_SOURCE_DIR}/test_person/cmake-build-debug")
+add_subdirectory("${PROJECT_SOURCE_DIR}/test_rational" "${PROJECT_SOURCE_DIR}/test_rational/cmake-build-debug")
