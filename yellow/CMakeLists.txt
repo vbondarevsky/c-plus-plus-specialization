@@ -24,3 +24,5 @@ add_subdirectory("week4/split_into_words" "week4/split_into_words/cmake-build-de
 add_subdirectory("week4/remove_duplicates" "week4/remove_duplicates/cmake-build-debug")
 add_subdirectory("week4/permutations" "week4/permutations/cmake-build-debug")
 add_subdirectory("week4/stats" "week4/stats/cmake-build-debug")
+add_subdirectory("week4/merge_sort" "week4/merge_sort/cmake-build-debug")
+add_subdirectory("week4/merge_sort2" "week4/merge_sort2/cmake-build-debug")
