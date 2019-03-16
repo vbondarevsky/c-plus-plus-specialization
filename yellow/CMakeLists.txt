@@ -17,3 +17,4 @@ add_subdirectory("week2/test_palindrome" "week2/test_palindrome/cmake-build-debu
 add_subdirectory("week3/sum_reverse_sort" "week3/sum_reverse_sort/cmake-build-debug")
 add_subdirectory("week3/phone_number" "week3/phone_number/cmake-build-debug")
 add_subdirectory("week3/rectangle" "week3/rectangle/cmake-build-debug")
+add_subdirectory("week3/decomposition-2" "week3/decomposition-2/cmake-build-debug")
