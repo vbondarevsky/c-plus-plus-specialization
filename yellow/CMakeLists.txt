@@ -21,3 +21,4 @@ add_subdirectory("week3/decomposition-2" "week3/decomposition-2/cmake-build-debu
 add_subdirectory("week4/vector_part" "week4/vector_part/cmake-build-debug")
 add_subdirectory("week4/set_part" "week4/set_part/cmake-build-debug")
 add_subdirectory("week4/split_into_words" "week4/split_into_words/cmake-build-debug")
+add_subdirectory("week4/remove_duplicates" "week4/remove_duplicates/cmake-build-debug")
