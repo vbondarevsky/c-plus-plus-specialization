@@ -30,3 +30,4 @@ add_subdirectory("week4/find_nearest_element" "week4/find_nearest_element/cmake-
 add_subdirectory("week4/person_names" "week4/person_names/cmake-build-debug")
 add_subdirectory("week4/find_starts_with_char" "week4/find_starts_with_char/cmake-build-debug")
 add_subdirectory("week4/find_starts_with_string" "week4/find_starts_with_string/cmake-build-debug")
+add_subdirectory("week5/notifiers" "week5/notifiers/cmake-build-debug")
