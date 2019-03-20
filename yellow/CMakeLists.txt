@@ -32,3 +32,4 @@ add_subdirectory("week4/find_starts_with_char" "week4/find_starts_with_char/cmak
 add_subdirectory("week4/find_starts_with_string" "week4/find_starts_with_string/cmake-build-debug")
 add_subdirectory("week5/notifiers" "week5/notifiers/cmake-build-debug")
 add_subdirectory("week5/figures" "week5/figures/cmake-build-debug")
+add_subdirectory("week5/refactoring" "week5/refactoring/cmake-build-debug")
