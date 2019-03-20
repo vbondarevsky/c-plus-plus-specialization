@@ -9,7 +9,9 @@ class Person {
 public:
     Person(const string& name) : name_(name) {}
 
-    virtual void Walk(const string& destination) const = 0;
+    virtual void Walk(const string& destination) const {
+        cout << Prefix() << " walks to: " << destination << endl;
+    };
 
     virtual string Type() const = 0;
 
@@ -62,10 +64,6 @@ public:
         cout << Prefix() << " teaches: " << Subject() << endl;
     }
 
-    void Walk(const string& destination) const override {
-        cout << Prefix() << " walks to: " << destination << endl;
-    }
-
     string Type() const override {
         return "Teacher";
     }
@@ -86,10 +84,6 @@ public:
     void Check(Person& p) const {
         cout << Prefix() << " checks " << p.Type() << ". "
              << p.Type() << "'s name is: " << p.Name() << endl;
-    }
-
-    void Walk(const string& destination) const override {
-        cout << Prefix() << " walks to: " << destination << endl;
     }
 
     string Type() const override {
