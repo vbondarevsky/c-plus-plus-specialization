@@ -4,4 +4,4 @@ project(red)
 set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory("week1/logger" "week1/logger/cmake-build-debug")
-
+add_subdirectory("week1/comparator_generator" "week1/comparator_generator/cmake-build-debug")
