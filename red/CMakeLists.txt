@@ -8,3 +8,4 @@ add_subdirectory("week1/comparator_generator" "week1/comparator_generator/cmake-
 add_subdirectory("week1/update_field" "week1/update_field/cmake-build-debug")
 add_subdirectory("week1/bad_macro" "week1/bad_macro/cmake-build-debug")
 add_subdirectory("week1/uniq_id_macro" "week1/uniq_id_macro/cmake-build-debug")
+add_subdirectory("week1/table" "week1/table/cmake-build-debug")
